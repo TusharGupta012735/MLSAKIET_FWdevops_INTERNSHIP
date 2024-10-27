@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 10;
+    background-color: black;
+    color: white;
+}
+* ::selection{
+    background: white;
+    color: #000;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+#app {
+  text-align: center;
+  width: 300px;
+}
+input,
+button {
+    border: 2px solid white;
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+li button {
+  background: none;
+  border: none;
+  color: rgb(239, 156, 156);
+  cursor: pointer;
+}
+h1{
+    font-size: 55px;
+}
